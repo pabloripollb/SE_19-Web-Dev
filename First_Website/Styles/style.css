@@ -1,0 +1,56 @@
+html {
+    font-size: 20px;
+    font-family: "Poiret One", sans-serif;
+    background-color: #ffffff;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 2%;
+    display: block;
+    border-radius: 20px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+    text-align: center;
+}
+
+p
+ {
+    text-align: left;
+    margin: 0 10% 20px 10%;
+    line-height: 1.5;
+}
+
+li
+ {
+    text-align: left;
+    margin: 0 10% 20px 10%;
+    line-height: 1.5;
+}
+
+ol
+ {
+    text-align: left;
+    margin: 0 60% 20px 10%;
+    line-height: 1.5;
+}
+
+ul
+ {
+    text-align: left;
+    margin: 0 60% 20px 10%;
+    line-height: 1.5;
+}
