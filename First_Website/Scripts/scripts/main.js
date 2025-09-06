@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/Pottery_Ceramic.png") {
-    myImage.setAttribute("src", "images/Fortnite_Jumpscream.jpeg");
+  if (mySrc === "Images/Pottery_Ceramic.png") {
+    myImage.setAttribute("src", "Images/Fortnite_Jumpscream.jpeg");
   } else {
-    myImage.setAttribute("src", "images/Pottery_Ceramic.png");
+    myImage.setAttribute("src", "Images/Pottery_Ceramic.png");
   }
 });
 
@@ -37,4 +37,5 @@ function setUserName() {
     localStorage.setItem("name", myName);
     myHeading.textContent = `DO NOT DO POTTERY, ${myName}`;
   }
+
 }
